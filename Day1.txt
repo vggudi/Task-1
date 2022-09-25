@@ -1,0 +1,43 @@
+Question 1: Write a blog on Difference between HTTP1.1 vs HTTP2
+
+1.HTTP Stands for Hyper Text Transfer Protocol.
+2. It is used in client-server communication. 
+3.By using HTTP , user sends the request to the server & the server sends the response to the user.
+
+Draw Backs of HTTP 1.1 that led to :
+
+1.HTTP/1.1 transfer all the requests & responses in the plain text message form. 
+2.Head of line blocking in which TCP connection is blocked all other requests until the response does not receive. 
+3.All the information related to the header file is repeated in every request.
+
+Advantages of HTTP2:
+
+1.HTTP/2 was developed over the SPDY protocol. 
+2.HTTP/2 works on the binary framing layer instead of textual that converts all the messages in binary format.
+3.It works on fully multiplexed that is one TCP connection is used for multiple requests. 
+4.HTTP/2 uses HPACK which is used to split data from header. it compresses the header. 
+5.The server sends all the other files like CSS & JS without the request of the client using the PUSH frame.
+
+Question 2:Write a blog about objects and its internal representation in Javascript
+
+1.Objects is an unordered collection of related data, of primitive or reference types, in the form of “key: value” pairs.
+2.These keys can be variables or functions and are called properties and methods, respectively, in the context of an object.
+3.Variables that are assigned a reference value are given a reference or a pointer to that value. 
+4.That reference or pointer points to the location in memory where the object is stored.
+5.The variables don’t actually store the value.
+
+Properties of Object:
+1.A JavaScript object has properties associated with it. 
+2.A property of an object can be explained as a variable that is attached to the object. 
+3.Object properties are basically the same as ordinary JavaScript variables, except for the attachment to objects. 
+4.The properties of an object define the characteristics of the object. 
+5.You access the properties of an object with a simple dot-notation.
+6.An object property name can be any valid JavaScript string, or anything that can be converted to a string, including the empty string.
+7. We can use loop and iterate over Object to access values.
+
+Creating Objects :
+1.Using object literal, define the property and values inside curly braces .
+2.Using Constructor:
+  Constructor function allows to create multiple objects .
+3.Using New Keyword.
+4.Using Create Method.  
